@@ -1,0 +1,1 @@
+This is a totally legit virus, or TLV for short. It will start off by nabbing ips as a test, and then it will run and play minesweeper. If it completes minesweeper, it will email itself to random people.
