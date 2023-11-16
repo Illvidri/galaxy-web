@@ -13,7 +13,7 @@ def main():
     grey=True
   if(out2txt.lower()=='y'):
     o2txt=True
-  with open("output.txt","w") as txt:
+  with open("output.txt","w", encoding="utf-8") as txt:
     printout=""
     for i in range(int(image.shape[0]/3)):
       for j in range(int(image.shape[1]/2)):
@@ -62,5 +62,5 @@ while(1):
   try:
     main()
     os.system('PAUSE')
-  except:
-    print("An error has occurred. Please try again")
+  except Exception as e:
+    print(e)
